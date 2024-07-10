@@ -259,10 +259,6 @@ hr {
   align-items: center;
   gap: 19px;
 }
-.footer-contact-icons a {
-  border: 1px dashed var(--secondary-color);
-  /* background-color: red; */
-}
 .footer-contact-icons a img {
   padding: 2px 5.5px;
 }
@@ -277,4 +273,7 @@ footer textarea {
   padding: 10px 20px;
   margin: 19px 0;
   border: none;
+}
+footer textarea {
+  resize: none;
 }
